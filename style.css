@@ -1,0 +1,114 @@
+* {
+margin: 0;
+padding: 0;
+}
+body {
+font-family: Raleway, sans-serif;
+width: 100%; 
+background: #F0F9FF top center fixed
+}
+a {
+text-decoration: none;
+}
+.header {
+width: 100%; 
+height: 50px; 
+background: #FFF;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-bottom-color: #D3E0E9
+}
+.content {
+margin: auto;
+margin-top: 60px;
+width: 700px; 
+height: 425px; 
+background: #fff;
+border-width: 2px;
+border-style: solid;
+border-color: #D3E0E9;
+border-radius: 5px; 
+text-align: center;
+font-size:18px;
+line-height:22px;
+color: #8E8E8E
+}
+.Page{
+margin: auto;
+width: 700px; 
+height: 425px;  
+border-top-width: 2px;
+border-top-style: solid;
+border-top-color: #D3E0E9
+}
+label {
+float:left;
+padding-left:50px;
+}
+#l1, #p1 {
+float:left;
+margin-left:50px;
+}
+#Brand {
+float:left;
+padding:14px;
+margin-left: 300px;
+font-size:18px;
+line-height:22px;
+height:50px;
+color: #8E8E8E
+}
+#Menu1, #Menu2, #info{
+float:right;
+padding:14px;
+margin-right: 100px; 
+font-size:18px;
+line-height:22px;
+height:50px;
+color: #8E8E8E 
+}
+#exit{
+float:right;
+padding:14px;
+margin-right: 100px; 
+font-size:18px;
+background-color: #FFF;
+line-height:22px;
+height:50px;
+color: #8E8E8E 
+}
+
+#Menu1:hover, #Menu2:hover{
+color:#1B1B1B;
+background-color:transparent
+}
+#Brand:hover {
+color:#1B1B1B;
+background-color:transparent
+}
+input[type=text], input[type=password], input[type=email], input[type=date] {
+height: 15px; 
+width: 285px; 
+padding: 5px; 
+margin-top: 15px;
+margin-bottom: 5px
+}
+input[type=submit], .button {
+color: #fff; 
+background: #1B91FF; 
+padding: 8px; 
+border: 1px solid #44A5FF;
+border-radius: 5px; 
+font-weight: normal; 
+text-align:center
+} 
+input[type=submit]:hover, .button:hover  { 
+background: #004CFF
+}
+select {
+height:30px; 
+margin-bottom: 5px; 
+margin-top: 10px; }
+textarea {
+resize: none
+}
